@@ -47,5 +47,5 @@ function convert(){
     let cmVal = Number(document.getElementById("input").value)
     let incVal= cmVal/2.54
     let results= document.getElementById("results")
-    results.innerHTML = incVal.toFixed() + " inches "
+    results.innerHTML = incVal.toFixed(3) + " inches "
   }
