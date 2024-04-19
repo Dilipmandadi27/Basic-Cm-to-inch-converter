@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    background-color: peachpuff;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: black;  
+    padding: 80px;
+    border-radius: 10px;
+}
+
+h2{
+    font-weight: 800;
+    color: white;
+    margin-top: 5px;
+}
+
+.input{
+    width: 30%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}   
+
+#input{
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    font-weight: 800;
+    background-color: peru;
+    border-radius: 10px;
+    border: none;
+}
+
+#results{
+    color: white;
+    padding: 20px;
+}
